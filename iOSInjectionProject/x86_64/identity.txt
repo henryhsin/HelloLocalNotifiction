@@ -1,0 +1,2 @@
+/Users/xinzhonghan/Library/Developer/Xcode/DerivedData/HelloLocalNotifiction-ajmqcehrybnaulfervabkciobmmq/Build/Products/Debug-iphonesimulator/HelloLocalNotifiction.app
+

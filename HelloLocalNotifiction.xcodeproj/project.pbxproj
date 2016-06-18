@@ -13,6 +13,7 @@
 		82AC5BF91D14FC940073F12F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AC5BF71D14FC940073F12F /* Main.storyboard */; };
 		82AC5BFB1D14FC940073F12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AC5BFA1D14FC940073F12F /* Assets.xcassets */; };
 		82AC5BFE1D14FC940073F12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AC5BFC1D14FC940073F12F /* LaunchScreen.storyboard */; };
+		82AC5C061D14FDC10073F12F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AC5C051D14FDC10073F12F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		82AC5BFA1D14FC940073F12F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82AC5BFD1D14FC940073F12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82AC5BFF1D14FC940073F12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AC5C051D14FDC10073F12F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82AC5C061D14FDC10073F12F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 		82AC5BE51D14FC940073F12F = {
 			isa = PBXGroup;
 			children = (
+				82AC5C051D14FDC10073F12F /* CoreLocation.framework */,
 				82AC5BF01D14FC940073F12F /* HelloLocalNotifiction */,
 				82AC5BEF1D14FC940073F12F /* Products */,
 			);
@@ -290,6 +294,7 @@
 				82AC5C041D14FC940073F12F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

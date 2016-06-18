@@ -57,5 +57,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         return false
     }
 
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        
+        //當user點擊了localNotification時，app會去執行這個method
+        //若這個提醒發生時，user沒使用我們的app或者有使用我們的app，都會來執行這個function
+        NSLog(notification.description)
+    }
 }
 
